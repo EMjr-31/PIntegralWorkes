@@ -1,0 +1,282 @@
+<!--
+Author: Sara Portillo  
+-->
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Integral Workers</title>
+  <link rel="icon" href="assets/images/icon-logo.ico">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/css/style-starter.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Template CSS -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:100,300,400,500,500i,600,700&display=swap" rel="stylesheet">
+  <!--Iconos-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<!--/top-header-content-->
+<section class="top-header-content">
+	
+		<!--/nav-->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img class="logo" src="assets/images/logo.png" alt="Integral Workers"></a>
+				<!-- if logo is image enable this   
+				<a class="navbar-brand" href="#index.html">
+					<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+				</a> -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="services.html">Servicios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="outsourcing.html">Outsourcing</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link sub-menu" href="#">Contáctanos</a>
+							<ul class="contact-sub">
+								<li class="nav-item">
+									<a class="nav-link" href="contact_Gt.html">Guatemala</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact_Sv.html">El Salvador</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact_Hnd.html">Honduras</a>
+								</li>
+							</ul>							
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!--//nav-->
+	</div>
+
+</section>
+<!--//top-header-content-->
+
+
+    <section class="inner-page-main">
+      <div class="bkgd-contact-hnd ">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <h2 class="hny-title text-center">Honduras</h2>
+            <ol class="breadcrumb mb-0">
+              <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Honduras</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </section>
+ 
+
+
+	<!-- /contact-form -->
+	<section class="contact-main">
+		<div class="contact-infhny py-5">
+			<div class="container">
+				<div class="contact-grids row py-lg-5">
+					
+					<div class="contact-gridhny col-lg-4">
+						<div class="con-gridhny-inf">
+							<h6>Comercial</h6>
+							<p>+(503) 2522 0488 <br>+(503) 7189 0117</p>
+							<a href="mailto:comercial@grupointegral.com.sv" class="link1 btn">comercial@grupointegral.com.sv</a>
+						</div>
+					</div>
+					<div class="contact-gridhny col-lg-4 my-lg-0 my-4">
+						<div class="con-gridhny-inf">
+							<h6>Recursos Humanos</h6>
+							<p>+(503) 2522 0490 <br>+(503) 7855 5945</p>
+							<a href="mailto:comercial@grupointegral.com.sv" class="link1 btn">empleo@grupointegral.com.sv</a>
+						</div>
+					</div>
+					<div class="contact-gridhny col-lg-4">
+						<div class="con-gridhny-inf">
+							<h6>Ubicación</h6>
+							<p>Prolongación Juan Pablo II, pasaje y Urbanización San Jorge # 5, San Salvador.<br></p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+        </div>
+	</section>
+	<!-- //contact-form -->
+
+	<!-- /contact-form -->
+	<section class="contact-main">
+		<div class="contact-infhny py-5">
+			<div class="container">
+				<div class="contact-grids row py-lg-5">
+					<div class="contact-left col-lg-6">
+							<h3>Correos</h3>
+						<p></p>
+						<form id="form" action="enviar2.php" method="post" class="signin-form mt-lg-5 mt-4">
+							<div class="input-grids" id="form-camps">
+								<select id="selectform" onchange="changeform();">
+									<option value="0" disabled selected>Elija una opcion </option>
+									<option value="aspirante">Candidato a Empleo</option>
+									<option value="empresa">Empresa</option>
+								</select>
+								<p id="option-correo"></p>
+								<input id="form-name" type="text" name="Name" placeholder="" class="contact-input" required="" />
+								<input type="email" name="Email" placeholder="Correo" class="contact-input" required="" />
+								<input id="form-plaza-servicio" type="text" name="Square" placeholder="" class="contact-input" required="" />
+								<input type="text" name="Phone"placeholder="Número Teléfonico" class="contact-input" required="" />
+							</div>
+							<div  class="form-input">
+								<textarea name="Message" placeholder="Escriba un mensaje"></textarea>
+							</div>
+							
+							<button id="form-button" class="btn submit" disabled>Enviar</button>
+						</form>
+					</div>
+					<div class="contact-right col-lg-6 pl-lg-4">
+				        <div class="img-contact">
+							<img src="assets/images/" alt="">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<div class="map-hny">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d87719.56187946802!2d-89.2178605170917!3d13.67638802
+		6436445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63310196d4bb5b%3A0xc42ec2721cf5f757!2sIntegral%20workers!
+		5e0!3m2!1ses!2ssv!4v1607026685261!5m2!1ses!2ssv" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" 
+		aria-hidden="false" tabindex="0"></iframe>
+   </div>
+	<!-- //contact-form -->
+
+
+
+
+
+
+<section class="footer-22-main">
+    <!-- footer-22 -->
+	<div class="footer-hny py-5">
+        <div class="container py-lg-4"> 
+                    <div class="sub-columns row">
+						<div class="sub-container sub-one-left col-lg-4 col-md-6">
+							<img src="assets/images/logo-white-footer.png" alt="logo" id="logo-footer">
+							<p id="logo-desc">Reclutadora</p>                
+                        </div>
+						<div class="sub-one-left col-lg-4 col-md-6">
+							<h6>Misión</h6>
+							<p>Brindar el mejor servicio de recursos humanos con calidad y eficiencia al sector empresarial.</p>
+                
+                        </div>
+                        <div class="sub-two-right col-lg-4 col-md-6">
+                            <h6>Acceso Rápido</h6>
+                            <div class="footer-hny-ul">
+								<ul>
+									<li><a href="index.html">Inicio</a></li>
+									<li><a href="services.html">Servicios</a></li>
+									<li><a href="outsourcing.html">Outsourcing</a></li>
+								</ul>
+								
+							   </div>
+                        </div>
+                        <div class="sub-two-right col-lg-4 col-md-6 my-md-0 my-5">
+                            <h6>Contáctanos</h6>
+						   <div class="footer-hny-ul">
+							<ul>
+								<li><a href="contact_Gt.html">Guatemala</a></li>
+								<li><a href="contact_Sv.html">El Salvador</a></li>
+								<li><a href="contact_Sv.html">Honduras</a></li>
+							</ul>
+						</div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+         </div>  
+        <div class="below-section">
+            <div class="container">
+                <div class="copyright-footer row">
+                <div class="columns col-lg-6">
+                    <ul class="social footer">
+                        <li><a href="https://es-la.facebook.com/Integralsv/" target="_blank"><i class='bx bxl-facebook' ></i></a></li>
+                        <!--<li><a href="#" target="_blank"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>-->
+                        <li><a href="https://www.instagram.com/integralworkers_/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/grupo-integral" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+                    </ul>
+                </div>
+                <div class="columns copy-right col-lg-6">
+                    <p>© 2020 Integral Workers. All rights reserved. Design by <a href="https://www.grupointegral.com.sv/" target="_blank">
+                        Grupo Integral</a>
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    <!-- //titels-5 -->
+     <!-- move top -->
+     <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-chevron-up"></span>
+    </button>
+    <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
+    
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("movetop").style.display = "block";
+                } else {
+                    document.getElementById("movetop").style.display = "none";
+                }
+            }
+    
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!-- /move top -->
+   
+</section>
+</div>
+</body>
+</html>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- disable body scroll which navbar is in active -->
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<!-- disable body scroll which navbar is in active -->
+<!-- //jQuery-Photo-filter-lightbox-portfolio-plugin -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/form.js"></script>
+<script src="/assets/js/contact-sub.js"></script>
