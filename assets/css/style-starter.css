@@ -15740,7 +15740,11 @@ a.text-dark:focus {
   font-size: 55px;
   color: #2196d1;
 }
-
+/*iconos servicios*/
+.characteristic>a>i{
+  font-size: 25px;
+  font-weight: 800;
+}
     /*footer*/
 .social i{
   margin-top: 4px;
@@ -15765,6 +15769,7 @@ a.text-dark:focus {
   color:#2196d1;
  padding-bottom: 15 px;
 }
+
 @media (max-width: 768px) {
 
   #logo-footer{
@@ -15851,7 +15856,6 @@ a.text-dark:focus {
   }
 }
 
-/**/
 
 /*Centrar formulario*/
 @media (max-width: 992px){
